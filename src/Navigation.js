@@ -1,13 +1,12 @@
 import {Link} from 'react-router-dom'
 
-function Navigation(){
+export default function Navigation(){
 	return(
 		<div className="navbar">
 			<Link to="/">Home</Link>
-			<Link to="/about">About</Link>
 			<Link to="/products">Products</Link>
-			<Link to="/contact">Contact</Link>
+			<Link to="/login">Login</Link>
+			<Link to="/cart">Cart</Link>
 		</div>
 		)
 }
-export default Navigation

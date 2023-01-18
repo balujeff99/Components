@@ -1,20 +1,37 @@
 .navbar{
-  background-color:black;
-  display:flex;
-  justify-content:space-around;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+
 }
 .navbar a{
-  padding:1%;
-  color:white;
-  text-decoration:none;
+  padding: 1%;
+  color: white;
+  text-decoration: underline;
 }
 .navbar a:hover{
-  background-color:grey;
-  color:black;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  text-decoration: underline;
+
 }
-.Product-item img{
-  width:80%;
+.mobiles img{
+  position: fixed;
+  top:26%;
+  left:35%;
 }
-.para{
-  margin-left:10px;
+.mobiles h1,h2,p{
+  background-color: skyblue;
+  color: black;
+  font-size:1rem;
+}
+.coming img{
+  justify-content: center;
+  align-items: center;
+  top:50%;
+  right:20%;
+}
+.product-item img{
+  width:10%;
 }

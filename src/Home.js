@@ -1,6 +1,9 @@
 function Home(){
 	return(
-		<div>Home page</div>
+		<div>
+		<h1>Mobile Brands</h1>
+		<p>Branded one's</p>
+		</div>
 		)
 }
 export default Home

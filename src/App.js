@@ -1,16 +1,14 @@
 import React from 'react'
-import ClassComponent from './ClassComponent'
-import FunctionalComponent from './FunctionalComponent'
-import './App.css';
 import Events from './Events'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Class from './Class'
 import Home from './Home'
-import About from './About'
-import Contact from './Contact'
+import Cart from './Cart'
 import NotFound from './NotFound'
 import Navigation from './Navigation'
 import Products from './Products'
+import Login from './Login'
+import './App.css'
 
 
 class App extends React.Component{
@@ -29,20 +27,15 @@ class App extends React.Component{
     <Navigation/>
     <Routes>
     <Route path="/" element={<Home/>}/>
-    <Route path="/about" element={<About/>}/>
-    <Route path="/contact" element={<Contact/>}/>
+      <Route path="/cart" element={<Cart/>}/>
     <Route path="/products" element={<Products products={this.state.products}/>}/>
+    <Route path="/login" element={<Login/>}/>
     <Route path="*" element={<NotFound/>}/> 
     </Routes>
     </BrowserRouter>
-    {/*<Events/>
-      <ClassComponent demo="ram"/>
-      <Class/>
-      <ClassComponent/>
-      <FunctionalComponent demo="siva"/>
-      <FunctionalComponent demo="teja"/>*/}
+    
     </div>
     )
   }
 }  
-export default App;
+export default App

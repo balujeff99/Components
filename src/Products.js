@@ -9,10 +9,6 @@ function Products(props){
 					<p>{pitem.price}</p>
 				</div>
 			))
-
-
-
-
 		}	
 		</div>
 		
