@@ -1,0 +1,20 @@
+.navbar{
+  background-color:black;
+  display:flex;
+  justify-content:space-around;
+}
+.navbar a{
+  padding:1%;
+  color:white;
+  text-decoration:none;
+}
+.navbar a:hover{
+  background-color:grey;
+  color:black;
+}
+.Product-item img{
+  width:80%;
+}
+.para{
+  margin-left:10px;
+}
